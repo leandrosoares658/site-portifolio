@@ -23,8 +23,17 @@ export default function Projects() {
           </ul>
 
           <div className="project-links">
-            <a href="#" className="btn small">https://sistema-controle-financeiro1.vercel.app/</a>
-            <a href="#" className="btn outline small">https://github.com/leandrosoares658/sistema-controle-financeiro1</a>
+            <a href="https://sistema-controle-financeiro1.vercel.app/"
+              target="_blank"
+              className="btn small">
+                https://sistema-controle-financeiro1.vercel.app/
+            </a>
+
+            <a href="https://github.com/leandrosoares658/sistema-controle-financeiro1"
+              target="_blank"
+              className="btn outline small">
+                https://github.com/leandrosoares658/sistema-controle-financeiro1
+            </a>
           </div>
         </div>
       </div>
