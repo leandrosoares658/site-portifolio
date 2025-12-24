@@ -26,16 +26,52 @@ export default function Projects() {
             <a href="https://sistema-controle-financeiro1.vercel.app/"
               target="_blank"
               className="btn small">
-                https://sistema-controle-financeiro1.vercel.app/
+              https://sistema-controle-financeiro1.vercel.app/
             </a>
 
             <a href="https://github.com/leandrosoares658/sistema-controle-financeiro1"
               target="_blank"
               className="btn outline small">
-                https://github.com/leandrosoares658/sistema-controle-financeiro1
+              https://github.com/leandrosoares658/sistema-controle-financeiro1
             </a>
           </div>
         </div>
+
+        <div className="project-card">
+          <div className="project-header">
+            <h4>Landing page para produto digital</h4>
+            <span className="badge">React</span>
+          </div>
+
+          <p>
+            Landing page desenvolvida e hospedada na URL https://sozinhanuncamais.com/ usando Wordpress
+            <br />
+
+            O link abaixo foi uma reprodução da mesma landing page usando React.
+          </p>
+
+          <ul className="tech-list">
+            <li>Wordpress</li>
+            <li>CSS puro</li>
+            <li>Java Script</li>
+          </ul>
+
+          <div className="project-links">
+            <a href="https://lp-sozinha-nunca-mais.vercel.app/"
+              target="_blank"
+              className="btn small">
+              https://lp-sozinha-nunca-mais.vercel.app/
+            </a>
+
+            <a href="https://github.com/leandrosoares658/sistema-controle-financeiro1"
+              target="_blank"
+              className="btn outline small">
+              https://github.com/leandrosoares658/sistema-controle-financeiro1
+            </a>
+          </div>
+        </div>
+
+
       </div>
     </section>
   )

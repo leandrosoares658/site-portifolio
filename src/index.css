@@ -45,10 +45,13 @@ body {
 }
 
 .section {
-  padding: 60px 40px;
-  max-width: 900px;
-  margin: auto;
+  padding: 80px 40px;
+  max-width: 1100px;
+  margin: -40px auto 0 auto;
+  background: #f9fafb;
+  border-radius: 20px;
 }
+
 
 .card {
   background: white;
@@ -63,10 +66,10 @@ body {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  margin-top: 30px;
 }
+
 
 .project-card {
   background: white;
@@ -111,11 +114,70 @@ body {
 
 .project-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-  margin-top: 20px;
 }
+
+.project-links a {
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+
 
 .btn.small {
   padding: 8px 16px;
   font-size: 14px;
+}
+
+.project-card {
+  min-height: 360px;
+}
+
+.project-card p {
+  flex-grow: 1;
+}
+
+.project-card h4 {
+  min-height: 48px;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero-blue {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 100px 40px;
+  border-radius: 0 0 40px 40px;
+}
+
+.hero-blue h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-blue h3 {
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.hero-blue p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.btn.light {
+  background: white;
+  color: #2563eb;
+}
+
+.btn.outline.light {
+  border: 2px solid white;
+  background: white;
+  color: #2563eb;
 }

@@ -16,7 +16,7 @@ export default function Skills() {
 
         <div>
           <h4>Ferramentas</h4>
-          <p>Git, GitHub, Vite, Vercel</p>
+          <p>Git, GitHub, Vite, Vercel, Netlify</p>
         </div>
       </div>
     </section>
