@@ -3,6 +3,14 @@ body {
   font-family: Inter, Arial, sans-serif;
   background: #f9f9f9;
   color: #222;
+
+  background: radial-gradient(
+      circle at top,
+      #1a1a1a 0%,
+      #0e0e0e 35%,
+      #050505 100%
+  );
+  color: #eaeaea;
 }
 
 .card {
@@ -87,4 +95,53 @@ body {
   min-height: 48px;
 }
 
+.reveal {
+opacity: 0;
+transform: translateY(40px);
+}
 
+
+.reveal.show {
+opacity: 1;
+transform: translateY(0);
+transition: all 0.7s ease;
+}
+
+
+.reveal-left {
+opacity: 0;
+transform: translateX(-40px);
+}
+
+
+.reveal-left.show {
+opacity: 1;
+transform: translateX(0);
+transition: all 0.7s ease;
+}
+
+
+.reveal-right {
+opacity: 0;
+transform: translateX(40px);
+}
+
+
+.reveal-right.show {
+opacity: 1;
+transform: translateX(0);
+transition: all 0.7s ease;
+}
+
+
+.reveal-scale {
+opacity: 0;
+transform: scale(0.95);
+}
+
+
+.reveal-scale.show {
+opacity: 1;
+transform: scale(1);
+transition: all 0.7s ease;
+}

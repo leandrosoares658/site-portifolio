@@ -1,17 +1,16 @@
 .hero {
     max-width: 1280px;
-    margin: 120px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 60px;
-    padding-top: -300px;
 }
 
 
 
 .hero__content h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 900;
     line-height: 1.2;
     margin-bottom: 40px;
@@ -20,6 +19,7 @@
             #fd6f00 42%,
             #ca5900 90%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

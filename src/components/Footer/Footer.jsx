@@ -8,18 +8,18 @@ export default function Footer() {
         <div className="footer__brand">
           <h3>Leandro<span>.</span></h3>
           <p>
-            Desenvolvedor web focado em criar sites, sistemas e soluções
-            digitais que ajudam negócios a crescer.
+            Desenvolvedor focado em criar sites, sistemas e soluções
+            digitais <br /> que ajudam negócios a crescer.
           </p>
         </div>
 
 
         <nav className="footer__nav">
           <a href="#home">Home</a>
-          <a href="#services">Services</a>
+          <a href="#services">Serviços</a>
           <a href="#portfolio">Portfolio</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          <a href="#about">Sobre mim</a>
+          <a href="#contact">Contato</a>
         </nav>
 
 

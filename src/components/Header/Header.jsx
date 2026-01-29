@@ -9,10 +9,10 @@ export default function Header() {
 
       <nav className="header__nav">
         <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
+        <a href="#services">Serviços</a>
+        <a href="#about">Sobre mim</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Contato</a>
       </nav>
     </header>
   );
