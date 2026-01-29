@@ -8,7 +8,7 @@ export default function Header() {
 
 
       <nav className="header__nav">
-        <a href="#home">Home</a>
+        <a href="#home"></a>
         <a href="#services">Serviços</a>
         <a href="#about">Sobre mim</a>
         <a href="#portfolio">Portfolio</a>

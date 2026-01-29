@@ -3,11 +3,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 080px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 80px;
+    margin: 10px 0;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(10px);
     z-index: 1000;

@@ -5,14 +5,12 @@ import About from "../sections/About/About";
 import Portfolio from "../sections/Portfolio/Portfolio";
 
 import Header from "../components/Header/Header";
-import Sectionhome from "../sections/Sectionhome/Sectionhome"; 
 import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Sectionhome />
       
       <Hero />
       <Stats />
