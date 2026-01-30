@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
   background: #f9f9f9;
-  color: #222;
 
   background: radial-gradient(
       circle at top,
@@ -12,6 +11,7 @@ body {
   );
   color: #eaeaea;
 }
+
 
 .card {
   background: white;

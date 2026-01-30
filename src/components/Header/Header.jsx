@@ -1,26 +1,33 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./header.css";
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  const handleClick = () => setOpen(false);
 
   return (
-    <header className={`header ${scrolled ? "scrolled" : ""}`}>
-      <div className="header__logo">Leandro</div>
+    <header className="header">
+      <div className="header__container">
+        <div className="logo">Leandro<span className="point">.</span></div>
 
+        <nav className={`nav ${open ? "open" : ""}`}>
+          <a href="#home" onClick={handleClick}></a>
+          <a href="#services" onClick={handleClick}>Serviços</a>
+          <a href="#portfolio" onClick={handleClick}>Portfólio</a>
+          <a href="#about" onClick={handleClick}>Sobre</a>
+        </nav>
 
-      <nav className="header__nav">
-        <a href="#home"></a>
-        <a href="#services">Serviços</a>
-        <a href="#about">Sobre mim</a>
-        <a href="#portfolio">Portfolio</a>
-      </nav>
+        <button
+          className={`menu-toggle ${open ? "open" : ""}`}
+          onClick={() => setOpen(!open)}
+          aria-label="Abrir menu"
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
     </header>
   );
 }
