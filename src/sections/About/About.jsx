@@ -31,7 +31,7 @@ export default function About() {
         <div className="skill">
           <span>React</span>
           <div className="skill__bar">
-            <div className="skill__progress" style={{ width: "85%" }} />
+            <div className="skill__progress" style={{ width: "95%" }} />
           </div>
         </div>
 

@@ -5,7 +5,7 @@ import profileImg from "../../assets/images/profile.png";
 
 export default function Hero() {
     return (
-        <section className="hero">
+        <section className="hero" id="home">
             <div className="hero__content">
                 <h1>
                     Construo sites e sistemas que ajudam seu negócio a crescer
