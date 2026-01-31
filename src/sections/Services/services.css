@@ -33,10 +33,11 @@
 
 
 .services__card {
-    background: rgba(255, 255, 255, 0.04);
+    background: #161821;
     padding: 40px 32px;
     border-radius: 24px;
     transition: transform 0.3s ease, background 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.05);
 }
 
 
@@ -57,7 +58,7 @@
 .services__card p {
     font-size: 16px;
     line-height: 1.6;
-    color: #bdbdbd;
+    color: #a1a1aa;
 }
 
 .fade-up {
