@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./header.css";
 import { useEffect } from "react";
 
+
 export default function Header() {
   const [open, setOpen] = useState(false);
 
@@ -14,7 +15,9 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__container">
-        <div className="logo">Leandro<span className="point">.</span></div>
+        <a href="#home" className="logo" onClick={handleClick}>
+          Leandro<span className="point">.</span>
+        </a>
 
         <button
           className={`menu-toggle ${open ? "open" : ""}`}

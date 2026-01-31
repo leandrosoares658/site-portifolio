@@ -20,8 +20,21 @@
 .logo {
   font-weight: 900;
   font-size: 30px;
-  color: #fd6f00;
+  text-decoration: none;
+  cursor: pointer;
+
+  background: linear-gradient(94.36deg, #fd6f00 3.1%, #e46400 94.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
+
+.logo:hover {
+  opacity: 0.85;
+  transform: scale(1.03);
+}
+
 
 .point {
   color: #fff;
