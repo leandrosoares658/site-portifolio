@@ -8,7 +8,7 @@ export default function Hero() {
         <section className="hero" id="home">
             <div className="hero__content">
                 <h1>
-                    Construo sites e sistemas que ajudam seu negócio a crescer
+                    Transformo ideias em sistemas digitais que funcionam de verdade.
                 </h1>
 
 
